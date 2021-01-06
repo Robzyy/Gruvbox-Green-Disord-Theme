@@ -1,0 +1,310 @@
+//META{"name":"Spicetify Gruvbox","description":"Lookalike of the Spicetify theme Dribbblish, with base Gruvbox","author":"Robzyy","version":"0.0.6"}*//{}
+
+.theme-dark{
+    --background-tertiary: #689D6A;
+    --background-secondary: #292828;
+    --background-primary: #292828;
+    --background-secondary-alt:  #212121;
+
+    --header-primary: #C1AF97;
+    --header-secondary: #C1AF97;
+    --text-muted: #C1AF97;
+    --channels-default: #A89984;
+    --interactive-normal: #EBDBB2;
+    --interactive-active: #EBDBB2;
+    --interactive-muted: #74695B;
+    --background-accent: #74695B;
+    --background-modifier-selected: #212121;
+
+    /* SET TO WHATEVER COLOR YOU WANT
+    IF YOU WANT TO SEE THE SCROLLBAR */
+    --scrollbar-auto-thumb: transparent;
+    --scrollbar-auto-track: transparent;
+
+    --scrollbar-thin-thumb: #74695B;
+
+    --chat-box: #353434;
+    --darker-gruv: #212121;
+}
+
+.chat-3bRxxu, .threadSidebar-1o3BTy, .sidebar-2K8pFh {
+/* possibly remove the last one, also remove the comma in this case */
+    height: 100%;
+}
+
+/* Make main window float, looks cooler imo */
+.base-3dtUhz{
+    bottom: 20px;
+    right: 20px;
+    border-radius: 15px;
+}
+
+/* Make the Windows buttons about the same size as
+    the normal, Win32, buttons */
+.da-winButton {
+    color: #36393F;
+    width: 46px;
+}
+
+/* Hide the DISCORD at the top left corner */
+.da-wordmarkWindows{
+    display: none;
+}
+
+
+
+/* New Message top bar */
+.newMessagesBar-265mhP{
+    background-color: var(--background-tertiary);
+}
+
+
+
+.panels-j1Uci_{
+    background-color: var(--background-primary);
+}
+.scrollableContainer-2NUZem{
+    background-color: var(--chat-box);
+}
+
+.item-2hkk8m {
+    background-color: var(--background-primary);
+}
+
+.peopleColumn-29fq28{
+    background-color: var(--background-primary);
+}
+
+.theme-dark .autocomplete-1vrmpx{
+    background-color: var(--background-primary);
+}
+.theme-dark .selected-1Tbx07{
+    background-color: var(--chat-box);
+}
+
+/* Slider bars are still blurple, fix it */
+.barFill-23-gu-{
+    background-color: var(--background-tertiary);
+}
+
+/* Move servers up a bit */
+.guilds-1SWlCJ{
+    position: fixed;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+/***********************************************
+ *                                             *
+ *                                             *
+ *                                             *
+ *   THINGS THAT SHOULDN'T BE GREEN BUT ARE    *
+ *                                             *
+ *                                             *
+ *                                             *
+ ***********************************************/
+/* Emoji selector */
+.container-2XeR5Z{
+    background-color: var(--chat-box);
+}
+.wrapper-2Gsate{
+    background-color: var(--background-primary);
+}
+
+/* Gif selector search box */
+.container-cMG81i{
+    background-color: var(--chat-box);
+}
+
+/* Friend search box */
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx{
+    background-color: var(--chat-box);
+}
+
+/* Game activity for friends */
+.wrapper-3D2qGf{
+    background-color: var(--darker-gruv);
+}
+
+/* Inbox tutorial */
+.tutorial-3w5I9h{
+    background-color: var(--background-primary);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91{
+    background-color: var(--darker-gruv);
+}
+.item-26Dhrx[aria-checked=true]{
+    background-color: var(--darker-gruv);
+}
+.cardWrapper-2Min21{
+    background-color: var(--darker-gruv);
+}
+
+/* The user notes part */
+.textarea-2r0oV8:focus{
+    background-color: var(--darker-gruv);
+}
+
+/* Message border in pinned section */
+.messageGroupWrapper-o-Zw7G{
+    border: 1px solid var(--darker-gruv);
+}
+
+/* Search bar */
+.searchBar-3dMhjb {
+    background-color:var(--chat-box);
+ }
+
+
+
+
+
+
+
+
+/***********************************************
+ *                                             *
+ *                                             *
+ *                                             *
+ *  THINGS THAT SHOULD BE DARKER GRUV COLORS   *
+ *                                             *
+ *                                             *
+ *                                             *
+ ***********************************************/
+
+ .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
+     background-color: var(--darker-gruv);
+ }
+ .theme-dark .headerNormal-T_seeN{
+    background-color: var(--darker-gruv);
+ }
+ .emojiSection-3Fb9ix{
+    background-color: var(--darker-gruv);
+ }
+ .wrapper-39oAo3{
+    background-color: var(--darker-gruv);
+ }
+ .button-F9qN4n{
+    background-color: var(--darker-gruv);
+ }
+ .theme-dark .root-1gCeng{
+    background-color: var(--darker-gruv);
+ }
+ .topSectionNormal-2-vo2m{
+    background-color: var(--darker-gruv);
+ }
+
+ /* Weird green color in pinned section */
+ .header-ykumBX{
+    background-color: var(--darker-gruv);
+ }
+
+
+
+
+
+
+
+ /***********************************************
+ *                                             *
+ *                                             *
+ *                                             *
+ *   THINGS THAT SHOULD BE GREEN BUT AREN'T    *
+ *                                             *
+ *                                             *
+ *                                             *
+ ***********************************************/
+ /* Right click menu items while hovered */
+ .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j{
+     background-color: var(--background-tertiary);
+ }
+
+
+
+
+
+
+
+
+ /**********************************************
+ *                                             *
+ *                                             *
+ *                                             *
+ *                RANDOM FIXES                 *
+ *                                             *
+ *                                             *
+ *                                             *
+ ***********************************************/
+/* Center profile tabs */
+ .top-28JiJ- .item-PXvHYJ:nth-child(3){
+    margin: 0;
+ }
+ .tabBar-2MuP6-, .tabBarItem-1b8RUP{
+     justify-content: center;
+ }
+ 
+ /* The message indicaton for servers in a dark color looks smaller 
+    (to me at least) */
+ .item-2hkk8m{
+    margin-left: -3px;
+ }
+/* Fix for random bg without var() in friend list activity whatever
+    (the right-side section) */
+ .theme-dark .inset-3sAvek{
+     background-color: var(--background-primary);
+ }
+
+ /* Whitenames shall remain whitenames */
+ .username-1A8OIy{
+     color: white;
+ }
+
+  /* Fix for folder settings - has no padding and/or margin */
+  .colorPickerRow-1LgLnl:nth-child(odd){
+    margin-top: 10px;
+}
+/* Upload modal doesn't use variables, needs fix */
+.theme-dark .uploadModal-2ifh8j{
+    background-color: var(--background-secondary);
+}
+.theme-dark .footer-3mqk7D{
+    background-color: var(--darker-gruv);
+}
+
+/* Fix code boder being green  */
+.markup-2BOw-j code, .cardPrimary-1Hv-to{
+    border: 1px solid #31343A;
+}
+
+ /* Remove help button */
+ a[href="https://support.discord.com"] {
+    display: none;
+}
+ /**********************************************
+ *                                             *
+ *    SIMILAR COLORS BASED ON ACCENT COLOR     *
+ *                                             *
+ ***********************************************/
+/* Server Folders have default colors, fix */
+.expandedFolderBackground-2sPsd-, .folder-21wGz3{
+    background-color: #568258;
+}
+.folder-21wGz3:hover{
+    background-color: #486E4A;
+}
+
+/* The Discord home icon is still blurple, fix it */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+    background-color:  #74af76;
+}
+ /**********************************************
+ *                                             *
+ *        END OF THE COLORS MUMBO JUMBO        *
+ *                                             *
+ ***********************************************/
