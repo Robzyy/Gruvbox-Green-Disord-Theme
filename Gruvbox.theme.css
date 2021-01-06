@@ -1,7 +1,30 @@
-//META{"name":"Spicetify Gruvbox","description":"Lookalike of the Spicetify theme Dribbblish, with base Gruvbox","author":"Robzyy","version":"0.0.6"}*//{}
-
+//META{"name":"Gruvbox","description":"Attempt to port Gruvbox to Discord, could be better, could be worse","author":"Robzyy","version":"0.9.0"}*//{}
+/**********************************************
+ *                                             *
+ *   NOTE: THIS IS A DARK THEME ONLY CHANGE,   *
+ * LIGHT THEME MIGHT LOOK HORRIBLE, DIDN'T TRY *
+ *                                             *
+ ***********************************************/
 .theme-dark{
+    /* CHOOSE THE COLOR SET YOU WANT BY
+    UNCOMMENTING IT */
+
+    /* ----------- AQUA ------------ */
     --background-tertiary: #689D6A;
+    --home-icon-color: #74af76;
+    --folder-color: #568258;
+    --folder-color-hover: #486E4A;
+
+    /*
+    TODO: 
+
+    Add more color schemes
+    look out for unmathching colors
+    Add comments where needed, stupid ass!
+    */ 
+
+
+
     --background-secondary: #292828;
     --background-primary: #292828;
     --background-secondary-alt:  #212121;
@@ -25,10 +48,12 @@
 
     --chat-box: #353434;
     --darker-gruv: #212121;
+
+    
 }
 
+/* Forgot why this is here, but I won't delete it */
 .chat-3bRxxu, .threadSidebar-1o3BTy, .sidebar-2K8pFh {
-/* possibly remove the last one, also remove the comma in this case */
     height: 100%;
 }
 
@@ -286,25 +311,16 @@
  a[href="https://support.discord.com"] {
     display: none;
 }
- /**********************************************
- *                                             *
- *    SIMILAR COLORS BASED ON ACCENT COLOR     *
- *                                             *
- ***********************************************/
+
 /* Server Folders have default colors, fix */
 .expandedFolderBackground-2sPsd-, .folder-21wGz3{
-    background-color: #568258;
+    background-color: var(--folder-color);
 }
 .folder-21wGz3:hover{
-    background-color: #486E4A;
+    background-color: var(--folder-color-hover);
 }
 
 /* The Discord home icon is still blurple, fix it */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
-    background-color:  #74af76;
+    background-color:  var(--home-icon-color);
 }
- /**********************************************
- *                                             *
- *        END OF THE COLORS MUMBO JUMBO        *
- *                                             *
- ***********************************************/
