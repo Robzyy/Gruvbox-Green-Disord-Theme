@@ -49,6 +49,7 @@
 
     --chat-box: #353434;
     --darker-gruv: #212121;
+    --text-normal:  #EBDBB2;
 
     
 }
@@ -119,7 +120,17 @@
     top: 0px;
 }
 
-
+/* The discover page */
+.theme-dark .pageWrapper-1PgVDX{
+    background-color: var(--background-primary);
+}
+.theme-dark .card-3DjzTQ:hover, .theme-dark .card-3DjzTQ:hover .iconMask-3b8GzQ, .theme-dark .iconMask-3b8GzQ:hover, .theme-dark .iconMask-3b8GzQ:hover .iconMask-3b8GzQ{
+    background-color: var(--darker-gruv);
+}
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO{
+    background-color: var(--darker-gruv);
+}
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng{}
 
 
 
@@ -231,9 +242,31 @@
     background-color: var(--darker-gruv);
  }
 
+ /* Search feud */
+ .resultsGroup-r_nuzN, #search-results--1{
+    background-color: var(--darker-gruv);
+ }
+ /* .public-DraftEditor-content[aria-activedescendant*="search-results"]{
+    background-color: var(--darker-gruv);
+ } */
 
+/* Search bar in the CTRL + K menu */
+ .input-2VB9rf{
+    background-color: var(--darker-gruv);
+    color: var(--channels-default);
+ }
+/* CTRL + / menu */
+ .theme-dark .keyboardShortcutsModal-3piNz7{
+    background-color: var(--darker-gruv);
+ }
 
-
+ /* Selected category in the discover page */
+ .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
+     background-color: var(--darker-gruv);
+ }
+ .searchResultMessage-1fxgXh.hit-1fVM9e{
+     border: 1px solid var(--darker-gruv);
+ }
 
 
 
@@ -324,4 +357,9 @@
 /* The Discord home icon is still blurple, fix it */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
     background-color:  var(--home-icon-color);
+}
+
+/* Text in the *Create server* page is black for some reason, thanks Discord */
+.colorHeaderPrimary-26Jzh-{
+    color: var(--channels-default);
 }
