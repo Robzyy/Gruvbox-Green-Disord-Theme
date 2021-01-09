@@ -1,3 +1,33 @@
 //META{"name":"Gruvbox","description":"Attempt to port Gruvbox to Discord, could be better, could be worse","author":"Robzyy","version":"0.9.0"}*//{}
 
+/**********************************************
+*                                             *
+*   NOTE: THIS IS A DARK THEME ONLY CHANGE,   *
+* LIGHT THEME MIGHT LOOK HORRIBLE, DIDN'T TRY *
+*                                             *
+***********************************************/
+
 @import url("https://robzyy.github.io/Gruvbox-Discord-Theme/Gruvbox.css");
+
+.theme-dark{
+    /* CHOOSE THE COLOR SET YOU WANT BY
+    UNCOMMENTING IT */
+
+    /* ------- AQUA - DEFAULT ------- */
+    --accent-color: #689D6A;
+    --home-icon-color: #74af76;
+    --folder-color: #568258;
+    --folder-color-hover: #486E4A;
+
+    /* ------- SOMETHING ELSE ------- */
+    /* --accent-color: #EBDBB2;
+    --home-icon-color: #EBDBB2;
+    --folder-color: #B7AB8B;
+    --folder-color-hover: #837B64; */
+
+    /* ------- SOMETHING ELSE ------- */
+    /* --accent-color: #B16286;
+    --home-icon-color: #D777A2;
+    --folder-color: #965270;
+    --folder-color-hover: #633649; */
+}
