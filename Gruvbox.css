@@ -1,24 +1,25 @@
+
 /**********************************************
- *                                             *
- *   NOTE: THIS IS A DARK THEME ONLY CHANGE,   *
- * LIGHT THEME MIGHT LOOK HORRIBLE, DIDN'T TRY *
- *                                             *
- ***********************************************/
+*                                             *
+*   NOTE: THIS IS A DARK THEME ONLY CHANGE,   *
+* LIGHT THEME MIGHT LOOK HORRIBLE, DIDN'T TRY *
+*                                             *
+***********************************************/
 .theme-dark{
     /* CHOOSE THE COLOR SET YOU WANT BY
     UNCOMMENTING IT */
 
-    /* ----------- AQUA ------------ */
+    /* ------- AQUA - DEFAULT ------- */
     --accent-color: #689D6A;
     --home-icon-color: #74af76;
     --folder-color: #568258;
     --folder-color-hover: #486E4A;
 
     /* ------- SOMETHING ELSE ------- */
-    /*--accent-color: #F5DEB3;
-    --home-icon-color: #F5DEB3;
-    --folder-color: #C2AF8D;
-    --folder-color-hover: #8F8067;*/
+    /* --accent-color: #EBDBB2;
+    --home-icon-color: #EBDBB2;
+    --folder-color: #B7AB8B;
+    --folder-color-hover: #837B64; */
 
     /* ------- SOMETHING ELSE ------- */
     /* --accent-color: #B16286;
@@ -63,7 +64,7 @@
     --darker-gruv: #212121;
     --text-normal:  #EBDBB2;
 
-    
+
 }
 
 /* Forgot why this is here, but I won't delete it */
@@ -80,7 +81,7 @@
 }
 
 /* Make the Windows buttons about the same size as
-    the normal, Win32, buttons */
+the normal, Win32, buttons */
 .da-winButton {
     color: #36393F;
     width: 46px;
@@ -88,7 +89,6 @@
 
 /* Hide the DISCORD watermark */
 .wordmark-2iDDfm > svg { display: none; }
-
 
 
 /* New Message top bar */
@@ -148,14 +148,14 @@
 
 
 /***********************************************
- *                                             *
- *                                             *
- *                                             *
- *   THINGS THAT SHOULDN'T BE GREEN BUT ARE    *
- *                                             *
- *                                             *
- *                                             *
- ***********************************************/
+*                                             *
+*                                             *
+*                                             *
+*   THINGS THAT SHOULDN'T BE GREEN BUT ARE    *
+*                                             *
+*                                             *
+*                                             *
+***********************************************/
 /* Emoji selector */
 .container-2XeR5Z{
     background-color: var(--chat-box);
@@ -206,7 +206,7 @@
 /* Search bar */
 .searchBar-3dMhjb {
     background-color:var(--chat-box);
- }
+}
 
 
 
@@ -216,128 +216,128 @@
 
 
 /***********************************************
- *                                             *
- *                                             *
- *                                             *
- *  THINGS THAT SHOULD BE DARKER GRUV COLORS   *
- *                                             *
- *                                             *
- *                                             *
- ***********************************************/
+*                                             *
+*                                             *
+*                                             *
+*  THINGS THAT SHOULD BE DARKER GRUV COLORS   *
+*                                             *
+*                                             *
+*                                             *
+***********************************************/
 
- .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
-     background-color: var(--darker-gruv);
- }
- .theme-dark .headerNormal-T_seeN{
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
     background-color: var(--darker-gruv);
- }
- .emojiSection-3Fb9ix{
+}
+.theme-dark .headerNormal-T_seeN{
     background-color: var(--darker-gruv);
- }
- .wrapper-39oAo3{
+}
+.emojiSection-3Fb9ix{
     background-color: var(--darker-gruv);
- }
- .button-F9qN4n{
+}
+.wrapper-39oAo3{
     background-color: var(--darker-gruv);
- }
- .theme-dark .root-1gCeng{
+}
+.button-F9qN4n{
     background-color: var(--darker-gruv);
- }
- .topSectionNormal-2-vo2m{
+}
+.theme-dark .root-1gCeng{
     background-color: var(--darker-gruv);
- }
+}
+.topSectionNormal-2-vo2m{
+    background-color: var(--darker-gruv);
+}
 
- /* Weird green color in pinned section */
- .header-ykumBX{
+/* Weird green color in pinned section */
+.header-ykumBX{
     background-color: var(--darker-gruv);
- }
+}
 
- /* Search feud */
- .resultsGroup-r_nuzN, #search-results--1{
+/* Search feud */
+.resultsGroup-r_nuzN, #search-results--1{
     background-color: var(--darker-gruv);
- }
+}
 
- /* .public-DraftEditor-content[aria-activedescendant*="search-results"]{
-    background-color: var(--darker-gruv);
- } */
+/* .public-DraftEditor-content[aria-activedescendant*="search-results"]{
+background-color: var(--darker-gruv);
+} */
 
 /* Search bar in the CTRL + K menu */
- .input-2VB9rf{
+.input-2VB9rf{
     background-color: var(--darker-gruv);
     color: var(--channels-default);
- }
+}
 /* CTRL + / menu */
- .theme-dark .keyboardShortcutsModal-3piNz7{
+.theme-dark .keyboardShortcutsModal-3piNz7{
     background-color: var(--darker-gruv);
- }
+}
 
- /* Selected category in the discover page */
- .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
-     background-color: var(--darker-gruv);
- }
- .searchResultMessage-1fxgXh.hit-1fVM9e{
-     border: 1px solid var(--darker-gruv);
- }
-
-
-
- /***********************************************
- *                                             *
- *                                             *
- *                                             *
- *   THINGS THAT SHOULD BE GREEN BUT AREN'T    *
- *                                             *
- *                                             *
- *                                             *
- ***********************************************/
- /* Right click menu items while hovered */
- .colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j{
-     background-color: var(--background-tertiary);
- }
+/* Selected category in the discover page */
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
+    background-color: var(--darker-gruv);
+}
+.searchResultMessage-1fxgXh.hit-1fVM9e{
+    border: 1px solid var(--darker-gruv);
+}
 
 
+
+/***********************************************
+*                                             *
+*                                             *
+*                                             *
+*   THINGS THAT SHOULD BE GREEN BUT AREN'T    *
+*                                             *
+*                                             *
+*                                             *
+***********************************************/
+/* Right click menu items while hovered */
+.colorDefault-2K3EoJ:not(.colorDanger-2qLCe1).focused-3afm-j{
+    background-color: var(--background-tertiary);
+}
 
 
 
 
 
 
- /**********************************************
- *                                             *
- *                                             *
- *                                             *
- *                RANDOM FIXES                 *
- *                                             *
- *                                             *
- *                                             *
- ***********************************************/
+
+
+/**********************************************
+*                                             *
+*                                             *
+*                                             *
+*                RANDOM FIXES                 *
+*                                             *
+*                                             *
+*                                             *
+***********************************************/
 /* Center profile tabs */
- .top-28JiJ- .item-PXvHYJ:nth-child(3){
-    margin: 0;
- }
- .tabBar-2MuP6-, .tabBarItem-1b8RUP{
-     justify-content: center;
- }
- 
- /* The message indicaton for servers in a dark color looks smaller 
-    (to me at least) */
- .item-2hkk8m{
-    margin-left: -3px;
- }
+.top-28JiJ- .item-PXvHYJ:nth-child(3){
+margin: 0;
+}
+.tabBar-2MuP6-, .tabBarItem-1b8RUP{
+    justify-content: center;
+}
+
+/* The message indicaton for servers in a dark color looks smaller 
+(to me at least) */
+.item-2hkk8m{
+margin-left: -3px;
+}
 /* Fix for random bg without var() in friend list activity whatever
-    (the right-side section) */
- .theme-dark .inset-3sAvek{
-     background-color: var(--background-primary);
- }
+(the right-side section) */
+.theme-dark .inset-3sAvek{
+    background-color: var(--background-primary);
+}
 
- /* Whitenames shall remain whitenames */
- .username-1A8OIy{
-     color: white;
- }
+/* Whitenames shall remain whitenames */
+.username-1A8OIy{
+    color: white;
+}
 
-  /* Fix for folder settings - has no padding and/or margin */
-  .colorPickerRow-1LgLnl:nth-child(odd){
-    margin-top: 10px;
+/* Fix for folder settings - has no padding and/or margin */
+.colorPickerRow-1LgLnl:nth-child(odd){
+margin-top: 10px;
 }
 /* Upload modal doesn't use variables, needs fix */
 .theme-dark .uploadModal-2ifh8j{
@@ -378,4 +378,18 @@
 /* Slider bars are still blurple, fix it */
 .barFill-23-gu-{
     background-color: var(--background-tertiary);
+}
+
+/* Fix colors for the new search results */
+.searchHeader-2XoQg7, .channelName-1JRO3C, .button-11zvza{
+    background-color: var(--darker-gruv);
+}
+
+/* Weird colors in pinned section */
+.footer-1kmXd4, .messagesPopout-24nkyi{
+    background-color: var(--darker-gruv);
+}
+/* Circle buttons in inbox  */
+.tertiary-aMXF0g{
+    background-color: var(--darker-gruv);
 }
