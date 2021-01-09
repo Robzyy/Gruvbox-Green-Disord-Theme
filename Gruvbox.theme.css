@@ -10,22 +10,22 @@
     UNCOMMENTING IT */
 
     /* ----------- AQUA ------------ */
-    --background-tertiary: #689D6A;
+    --accent-color: #689D6A;
     --home-icon-color: #74af76;
     --folder-color: #568258;
     --folder-color-hover: #486E4A;
 
     /* ------- SOMETHING ELSE ------- */
-    /*--background-tertiary: #F5DEB3;
+    /*--accent-color: #F5DEB3;
     --home-icon-color: #F5DEB3;
     --folder-color: #C2AF8D;
     --folder-color-hover: #8F8067;*/
 
     /* ------- SOMETHING ELSE ------- */
-    /*--background-tertiary: #B16286;
+    /* --accent-color: #B16286;
     --home-icon-color: #D777A2;
     --folder-color: #965270;
-    --folder-color-hover: #633649;*/
+    --folder-color-hover: #633649; */
 
     /*
     TODO: 
@@ -34,7 +34,6 @@
     look out for unmathching colors
     Add comments where needed, stupid ass!
     Attempt to remove the accent color flickering while opening settings
-    "the unread channels need a lil better color. to make them stand out a LITTLE more." - Xara
     */ 
 
 
@@ -42,6 +41,7 @@
     --background-secondary: #292828;
     --background-primary: #292828;
     --background-secondary-alt:  #212121;
+    --background-tertiary: var(--accent-color);
 
     --header-primary: #C1AF97;
     --header-secondary: #C1AF97;
@@ -68,6 +68,7 @@
 }
 
 /* Forgot why this is here, but I won't delete it */
+/* Great start, I wish I could die sooner. */
 .chat-3bRxxu, .threadSidebar-1o3BTy, .sidebar-2K8pFh {
     height: 100%;
 }
@@ -86,8 +87,8 @@
     width: 46px;
 }
 
-/* Hide the DISCORD at the top left corner */
-.da-wordmarkWindows{
+/* Hide the DISCORD watermark */
+.wordmark-2iDDfm{
     display: none;
 }
 
@@ -122,10 +123,7 @@
     background-color: var(--chat-box);
 }
 
-/* Slider bars are still blurple, fix it */
-.barFill-23-gu-{
-    background-color: var(--background-tertiary);
-}
+
 
 /* Move servers up a bit */
 .guilds-1SWlCJ{
@@ -143,7 +141,6 @@
 .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO{
     background-color: var(--darker-gruv);
 }
-.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng{}
 
 .modeUnread-1qO3K1 .name-23GUGE{
     color: #FFECB7;
@@ -262,6 +259,7 @@
  .resultsGroup-r_nuzN, #search-results--1{
     background-color: var(--darker-gruv);
  }
+
  /* .public-DraftEditor-content[aria-activedescendant*="search-results"]{
     background-color: var(--darker-gruv);
  } */
@@ -378,4 +376,9 @@
 /* Text in the *Create server* page is black for some reason, thanks Discord */
 .colorHeaderPrimary-26Jzh-{
     color: var(--channels-default);
+}
+
+/* Slider bars are still blurple, fix it */
+.barFill-23-gu-{
+    background-color: var(--background-tertiary);
 }
