@@ -87,9 +87,7 @@
 }
 
 /* Hide the DISCORD watermark */
-.wordmark-2iDDfm{
-    display: none;
-}
+.wordmark-2iDDfm > svg { display: none; }
 
 
 
